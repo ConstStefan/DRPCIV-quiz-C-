@@ -1,0 +1,18 @@
+PSEUDOCOD PROIECT DRPCIV
+
+if(macar un raspuns selectat){
+	buton modifica si trimite - enabled
+}
+if(apas buton raspunde mai tarziu){
+	pune intrebarea intr-o coada, si o scoti la final
+}
+if(apas trimite raspunsul){
+	if(rasp corecte)
+		trimite pe pagina de admis
+	if(rasp gresite)
+		trimite pe pagina de respins
+	buton modifica si trimite - disabled
+}
+if(apas modifica raspunsul){
+	raspunsurile selectate se deselecteaza
+}
